@@ -18,7 +18,7 @@ public class section1 {
         y = number;
         System.out.println(x);
         System.out.println(y);
-        
+
         //Exercise 3
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input your secound: ");
