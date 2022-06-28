@@ -11,7 +11,14 @@ public class section1 {
         System.out.println("***********");
 
         //Exercise 2
-
+        int x = -10;
+        int y = -20;
+        int number = x;
+        x = y;
+        y = number;
+        System.out.println(x);
+        System.out.println(y);
+        
         //Exercise 3
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input your secound: ");
@@ -45,9 +52,23 @@ public class section1 {
         double area = Math.pow(AB, 2);
 
         System.out.println(circumference + "And " + area);
+
         //Exercise 5
         //Exercise 6
         //Exercise 7
         //Exercise 8
+        int n = 1;
+        while(n > 0){
+            System.out.print("Enter a positive interger: ");
+            n = scanner.nextInt();
+            if(n % 5 == 0 && n % 6 == 0 && n > 0){
+                System.out.println(n + " is divisible by both 5 and 6");
+            } else if (n % 5 == 0 && n > 0 || n % 6 == 0 && n > 0) {
+                System.out.println(n + " is divisible by both 5 or 6, but not both");
+            } else if (n % 5 != 0 && n % 6 != 0 && n > 0) {
+                System.out.println(n + " is neither divisible by both 5 nor 6");
+            }
+        }
+        System.out.println("Cya");
     }
 }
