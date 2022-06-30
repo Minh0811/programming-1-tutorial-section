@@ -1,8 +1,8 @@
 package src;
 
 import java.util.Scanner;
-import java.util.*;
-public class section1 {
+
+public class W1 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 

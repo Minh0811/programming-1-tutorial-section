@@ -1,7 +1,7 @@
 package src;
 import java.util.*;
 
-public class section2 {
+public class W2 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         //Exercise 1
@@ -19,7 +19,7 @@ public class section2 {
         }
         System.out.println("*****");
         //Exercise 3
-
+        e
         //Exercise 4
         //Exercise 5
     }
