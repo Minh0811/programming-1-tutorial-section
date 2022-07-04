@@ -19,7 +19,7 @@ public class W2 {
         }
         System.out.println("*****");
         //Exercise 3
-        e
+
         //Exercise 4
         //Exercise 5
     }
