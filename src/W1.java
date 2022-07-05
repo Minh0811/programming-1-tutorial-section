@@ -2,7 +2,7 @@ package src;
 
 import java.util.Scanner;
 
-class Exercises{
+class Exercises1{
     Scanner scanner = new Scanner(System.in);
     public void one(){
         String myName = "Minh Vo";
@@ -77,22 +77,22 @@ class Exercises{
 }
 public class W1 {
     public static void main(String[] args){
-        Exercises exercises = new Exercises();
+        Exercises1 exercises1 = new Exercises1();
 
         //Exercise 1
-        exercises.one();
+        exercises1.one();
 
         //Exercise 2
-        exercises.two();
+        exercises1.two();
 
        //Exercise 3
-        exercises.three();
+        exercises1.three();
 
         //Exercise 4
-        exercises.four();
+        exercises1.four();
 
         //Exercise 8
-        exercises.eight();
+        exercises1.eight();
 
     }
 }
