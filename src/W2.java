@@ -20,6 +20,24 @@ public class W2 {
             }
             System.out.println("*****");
         }
+        public void three(){
+            System.out.println("Input your number:");
+            double N = scanner.nextDouble();
+            double min = 1, max = N;
+            double avg = (min + max) / 2;
+            if (Math.pow(avg,2) > N){
+                System.out.println("avg is too big, make it smaller");
+                max = avg;
+            }
+            else if (Math.pow(avg,2) < N){
+                System.out.println("avg is too small, make it bigger");
+                min = avg;
+            }
+            else {
+                System.out.println("avg is the result");
+                System.out.println(avg);
+            }
+        }
     }
     public void main(String[] args){
         Exercise2 exercise2 = new Exercise2();
