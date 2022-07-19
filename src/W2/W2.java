@@ -1,4 +1,4 @@
-package src;
+package src.W2;
 import java.util.*;
 
 public class W2 {

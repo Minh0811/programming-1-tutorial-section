@@ -1,4 +1,4 @@
-package src;
+package src.W1;
 
 import java.util.Scanner;
 
